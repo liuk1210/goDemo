@@ -39,6 +39,12 @@ func main() {
 	}
 	fmt.Println(arr5)
 
+	//二维数组
+	var arr12 [2][3]int = [2][3]int{{1,2},{2,2,3}}
+	fmt.Print(arr12)
+	var arr13 [2][3]int = [...][3]int{{1,2},{2,2,3}}
+	fmt.Print(arr13)
+
 }
 //值传递
 func modify(arr [3]int) {
