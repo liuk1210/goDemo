@@ -1,1 +1,1 @@
-# demo
+# The Go Programming Language Demo Project
